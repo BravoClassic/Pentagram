@@ -31,10 +31,13 @@ export default function Home() {
 
   return (
     // TODO: Update the UI here to show the images generated
-    
-    <div className="min-h-screen flex flex-col justify-between p-8">
-      <main className="flex-1">{/* Main content can go here */}</main>
 
+    <div className="min-h-screen flex flex-col justify-between p-8">
+      <main className="flex-1">{/* Main content can go here */}
+        
+
+      </main>
+      <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black" />
       <footer className="w-full max-w-3xl mx-auto">
         <form onSubmit={handleSubmit} className="w-full">
           <div className="flex gap-2">

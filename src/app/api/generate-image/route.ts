@@ -7,6 +7,7 @@ export async function POST(request: Request) {
 
     // TODO: Call your Image Generation API here
     // For now, we'll just echo back the text
+    
 
     return NextResponse.json({
       success: true,
